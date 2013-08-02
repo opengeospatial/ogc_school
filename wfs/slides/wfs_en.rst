@@ -6,7 +6,7 @@ This tutorial provides an introduction to WFS.
 
 Feature
 --------------
-.. image:: ../wfs/img/feature.jpg
+.. image:: ../img/feature.jpg
       :height: 654
       :width: 1049 
       
