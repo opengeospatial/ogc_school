@@ -23,7 +23,8 @@ Images References
 ===================
 
 - The reference location of the images is relative to the slides folder. So to insert an image from the cat/img the following must be done::
-   .. image:: ../img/metadataaboutdata.jpg
+      
+      .. image:: ../img/metadataaboutdata.jpg
 
 Configuring the Content
 ======================
