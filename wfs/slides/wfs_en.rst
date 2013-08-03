@@ -13,13 +13,13 @@ Feature
 
 Feature has Properties
 ------------------------
-.. image:: ../wfs/img/geo-feature.jpg
+.. image:: ../img/geo-feature.jpg
       :height: 654
       :width: 1049    
 
 Geospatial Feature
 ---------------------
-.. image:: ../wfs/img/geo-feature.jpg
+.. image:: ../img/geo-feature.jpg
       :height: 654
       :width: 1049 
       
@@ -45,7 +45,7 @@ Feature Instance
 
 Features Modeling  
 ------------------
-.. image:: ../wfs/img/modeling.jpg
+.. image:: ../img/modeling.jpg
       :height: 654
       :width: 1600 
       
@@ -118,7 +118,7 @@ GML Provides
 
 GML Geometries
 ---------------
-.. image:: ../wfs/img/geometries.jpg
+.. image:: ../img/geometries.jpg
       :height: 654
       :width: 1049 
 

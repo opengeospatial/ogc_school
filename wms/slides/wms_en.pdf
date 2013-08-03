@@ -1,0 +1,1148 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 9 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+4 0 obj
+% Page dictionary
+<< /Contents 29 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 30 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 31 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+7 0 obj
+% Page dictionary
+<< /Contents 32 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page5': class PDFPage 
+8 0 obj
+% Page dictionary
+<< /Contents 33 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F3': class PDFType1Font 
+9 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+10 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=GetCapabilities) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 48.51969
+ 112.2431
+ 146.3397
+ 124.2431 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+11 0 obj
+% Page dictionary
+<< /Annots [ 10 0 R ]
+ /Contents 34 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page7': class PDFPage 
+12 0 obj
+% Page dictionary
+<< /Contents 35 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+13 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=GetMap&format=image/png&width=300&height=300&crs=EPSG:4326&layers=cite:BasicPolygons,cite:Forests&BBOX=-2,-1,2,6&STYLES=default,default) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 48.51969
+ 35.92736
+ 116.3297
+ 47.92736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+14 0 obj
+% Page dictionary
+<< /Annots [ 13 0 R ]
+ /Contents 36 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=getfeatureinfo&format=text/html&crs=EPSG:4326&layers=cite:BasicPolygons&query_layers=cite:BasicPolygons&BBOX=-2,-1,2,6&width=300&height=300&i=1&j=1) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 48.51969
+ 14.12288
+ 148.0197
+ 26.12288 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page9': class PDFPage 
+16 0 obj
+% Page dictionary
+<< /Annots [ 15 0 R ]
+ /Contents 37 0 R
+ /MediaBox [ 0
+ 0
+ 425.1969
+ 255.1181 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R17': class PDFCatalog 
+17 0 obj
+% Document Root
+<< /Outlines 19 0 R
+ /PageLabels 38 0 R
+ /PageMode /UseNone
+ /Pages 28 0 R
+ /Type /Catalog >>
+endobj
+% 'R18': class PDFInfo 
+18 0 obj
+<< /Author ()
+ /CreationDate (D:20130802110642+05'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (WEB Map Service \(WMS\)) >>
+endobj
+% 'R19': class PDFOutlines 
+19 0 obj
+<< /Count 8
+ /First 20 0 R
+ /Last 27 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+20 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 21 0 R
+ /Parent 19 0 R
+ /Title (Goals) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+21 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 22 0 R
+ /Parent 19 0 R
+ /Prev 20 0 R
+ /Title (Web Map Service \(WMS\)) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+22 0 obj
+<< /Dest [ 7 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 23 0 R
+ /Parent 19 0 R
+ /Prev 21 0 R
+ /Title (WMS Usage) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+23 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 24 0 R
+ /Parent 19 0 R
+ /Prev 22 0 R
+ /Title (WMS Operations) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+24 0 obj
+<< /Dest [ 11 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 25 0 R
+ /Parent 19 0 R
+ /Prev 23 0 R
+ /Title (WMS GetCapabilities Request) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+25 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 26 0 R
+ /Parent 19 0 R
+ /Prev 24 0 R
+ /Title (WMS GetCapabilities Response) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+26 0 obj
+<< /Dest [ 14 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Next 27 0 R
+ /Parent 19 0 R
+ /Prev 25 0 R
+ /Title (WMS GetMap Request) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+27 0 obj
+<< /Dest [ 16 0 R
+ /XYZ
+ 48.51969
+ 234.0945
+ 0 ]
+ /Parent 19 0 R
+ /Prev 26 0 R
+ /Title (WMS GetFeatureInfo Request) >>
+endobj
+% 'R28': class PDFPages 
+28 0 obj
+% page tree
+<< /Count 9
+ /Kids [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 11 0 R
+ 12 0 R
+ 14 0 R
+ 16 0 R ]
+ /Type /Pages >>
+endobj
+% 'R29': class PDFStream 
+29 0 obj
+% page stream
+<< /Length 453 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 210.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 45.72874 0 Td (WEB Map Service \(WMS\)) Tj T* -45.72874 0 Td ET
+Q
+Q
+q
+1 0 0 1 48.51969 176.0945 cm
+q
+BT 1 0 0 1 0 14 Tm 1.471748 Tw 12 TL /F1 10 Tf 0 0 0 rg (This tutorial provides a practical introduction to OGC Web Map Service) Tj T* 0 Tw (\(WMS\) Interface standard.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 176.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R30': class PDFStream 
+30 0 obj
+% page stream
+<< /Length 954 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Goals) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 189.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Understand what WMS can be used for) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 183.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Understand WMS requests and best practices) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R31': class PDFStream 
+31 0 obj
+% page stream
+<< /Length 1574 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Web Map Service \(WMS\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 195.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The latest version of WMS is 1.3.0 [#ogc-06-042].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 177.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (A WMS Server:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+q
+1 0 0 1 48.51969 159.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Provides information about what maps a service can produce) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+Q
+q
+1 0 0 1 48.51969 141.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Produces a Map) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 135.0945 cm
+Q
+q
+1 0 0 1 48.51969 123.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Answers queries about content of a Map) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 123.0945 cm
+Q
+q
+1 0 0 1 48.51969 123.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R32': class PDFStream 
+32 0 obj
+% page stream
+<< /Length 933 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS Usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 189.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Produce a Map) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 183.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Answer queries about content of the map) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R33': class PDFStream 
+33 0 obj
+% page stream
+<< /Length 1230 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS Operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 189.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GetCapabilities) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 183.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GetMap) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 165.0945 cm
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GetFeatureInfo) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R34': class PDFStream 
+34 0 obj
+% page stream
+<< /Length 858 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS GetCapabilities Request) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 195.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Request example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 131.4931 cm
+q
+q
+.90852 0 0 .90852 0 0 cm
+q
+1 0 0 1 6.6 7.264561 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 360 60 re B*
+Q
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 0 0 rg (http://ri.opengeospatial.org:8680/degree-wms-130/services?) Tj T* (service=WMS) Tj (&) Tj  T* (version=1.3.0) Tj (&) Tj  T* (request=GetCapabilities) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 111.4931 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Link to getCapabilities) Tj  T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 111.4931 cm
+Q
+ 
+endstream
+endobj
+% 'R35': class PDFStream 
+35 0 obj
+% page stream
+<< /Length 1262 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS GetCapabilities Response) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 201.0945 cm
+Q
+q
+1 0 0 1 48.51969 189.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (How to invoke GetMap) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 183.0945 cm
+Q
+q
+1 0 0 1 48.51969 171.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Types of exceptions) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 165.0945 cm
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (List of layers) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+Q
+q
+1 0 0 1 48.51969 153.0945 cm
+Q
+ 
+endstream
+endobj
+% 'R36': class PDFStream 
+36 0 obj
+% page stream
+<< /Length 1073 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS GetMap Request) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 195.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Request example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 55.17736 cm
+q
+q
+.90852 0 0 .90852 0 0 cm
+q
+1 0 0 1 6.6 7.264561 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 360 144 re B*
+Q
+q
+BT 1 0 0 1 0 122 Tm 12 TL /F3 10 Tf 0 0 0 rg (http://ri.opengeospatial.org:8680/degree-wms-130/services?) Tj T* (service=WMS) Tj (&) Tj  T* (version=1.3.0) Tj (&) Tj  T* (request=GetMap) Tj (&) Tj  T* (format=image/png) Tj (&) Tj  T* (width=300) Tj (&) Tj  T* (height=300) Tj (&) Tj  T* (crs=EPSG:4326) Tj (&) Tj  T* (layers=cite:BasicPolygons,cite:Forests) Tj (&) Tj  T* (STYLES=default,default) Tj T* (BBOX=-2,-1,2,6) Tj (&) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 35.17736 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Link to GetMap) Tj  T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 35.17736 cm
+Q
+ 
+endstream
+endobj
+% 'R37': class PDFStream 
+37 0 obj
+% page stream
+<< /Length 1098 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 48.51969 213.0945 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (WMS GetFeatureInfo Request) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 195.0945 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Request example:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 33.37288 cm
+q
+q
+.90852 0 0 .90852 0 0 cm
+q
+1 0 0 1 6.6 7.264561 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 360 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 0 0 rg (http://ri.opengeospatial.org:8680/degree-wms-130/services?) Tj T* (service=WMS) Tj (&) Tj  T* (version=1.3.0) Tj (&) Tj  T* (request=getfeatureinfo) Tj (&) Tj  T* (format=text/html) Tj (&) Tj  T* (crs=EPSG:4326) Tj (&) Tj  T* (layers=cite:BasicPolygons) Tj (&) Tj  T* (query_layers=cite:BasicPolygons) Tj (&) Tj  T* (BBOX=-2,-1,2,6) Tj (&) Tj  T* (width=300) Tj (&) Tj  T* (height=300) Tj (&) Tj  T* (i=1) Tj (&) Tj  T* (j=1) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 13.37288 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Link to GetFeatureInfo) Tj  T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R38': class PDFPageLabels 
+38 0 obj
+% Document Root
+<< /Nums [ 0
+ 39 0 R
+ 1
+ 40 0 R
+ 2
+ 41 0 R
+ 3
+ 42 0 R
+ 4
+ 43 0 R
+ 5
+ 44 0 R
+ 6
+ 45 0 R
+ 7
+ 46 0 R
+ 8
+ 47 0 R ] >>
+endobj
+% 'R39': class PDFPageLabel 
+39 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R40': class PDFPageLabel 
+40 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R41': class PDFPageLabel 
+41 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R42': class PDFPageLabel 
+42 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R43': class PDFPageLabel 
+43 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R44': class PDFPageLabel 
+44 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R45': class PDFPageLabel 
+45 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R46': class PDFPageLabel 
+46 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R47': class PDFPageLabel 
+47 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+xref
+0 48
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000571 00000 n
+0000000850 00000 n
+0000001129 00000 n
+0000001408 00000 n
+0000001687 00000 n
+0000001968 00000 n
+0000002141 00000 n
+0000002453 00000 n
+0000002754 00000 n
+0000003048 00000 n
+0000003480 00000 n
+0000003795 00000 n
+0000004239 00000 n
+0000004541 00000 n
+0000004700 00000 n
+0000004971 00000 n
+0000005096 00000 n
+0000005261 00000 n
+0000005459 00000 n
+0000005643 00000 n
+0000005832 00000 n
+0000006035 00000 n
+0000006239 00000 n
+0000006433 00000 n
+0000006604 00000 n
+0000006779 00000 n
+0000007330 00000 n
+0000008382 00000 n
+0000010055 00000 n
+0000011086 00000 n
+0000012415 00000 n
+0000013371 00000 n
+0000014732 00000 n
+0000015904 00000 n
+0000017105 00000 n
+0000017302 00000 n
+0000017379 00000 n
+0000017456 00000 n
+0000017533 00000 n
+0000017610 00000 n
+0000017687 00000 n
+0000017764 00000 n
+0000017841 00000 n
+0000017918 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\224N\316\037\322W\232^\226\361\356e\246\254O\341) (\224N\316\037\322W\232^\226\361\356e\246\254O\341)] 
+
+ /Info 18 0 R
+ /Root 17 0 R
+ /Size 48 >>
+startxref
+17965
+%%EOF
