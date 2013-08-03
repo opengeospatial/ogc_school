@@ -4,7 +4,7 @@ rm -rf build/*.pdf
 
 pdfname="ogc-tutorial"
 
-list_of_slides=list_of_slides_to_build_.txt
+list_of_slides=list_of_slides_to_build.txt
 rsts=""
 
 # creates a pdf for the list of slides

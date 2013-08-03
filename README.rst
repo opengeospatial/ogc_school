@@ -30,6 +30,10 @@ Configuring the Content
 ======================
 
 - Edit in the **custom** folder the slides and images to be included in the beginning and end of the presentation
+- To test how the cover page looks you can run the following (See next topic)::
+   
+   rst2pdf ./custom/cover.rst -s slides.style -o cover.pdf 
+   
 - Edit the **list_of_slides_to_build.txt**. Provide the link to the file you want to include in the presentation.
 - Only include the file name and not the fie type .rst. for example:
    - wms/slides/wms_en.rst
