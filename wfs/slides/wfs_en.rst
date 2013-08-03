@@ -54,7 +54,7 @@ Features Modeling
 
 
 
-Geographic Markup Languaae (GML)
+Geographic Markup Language (GML)
 ---------------------------------
 
 .. code-block:: xml
@@ -122,23 +122,12 @@ GML Geometries
       :height: 654
       :width: 1049 
 
-How can I model a radio station?
+How can radio station be modeled?
 ---------------------------------
 
-How can I model a radio station?
----------------------------------
-
-Point - when looking at a country map
-
-How can I model a radio station?
----------------------------------
-
-Polygon - location of the building
-
-How can I model a radio station?
----------------------------------
-
-Multipolygon - Area of Transmition
+- Point - when looking at a country map
+- Polygon - location of the building
+- Multipolygon - Area of Transmition
 
 
 Communities develop their own Application Schemas
