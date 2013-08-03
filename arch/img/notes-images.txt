@@ -1,0 +1,6 @@
+multier-architecture
+- An example of tiered architecture from the OGC Best Practice GIGAS Methodology
+for comparative analysis of information and data management systems.
+- GMES, INSPIRE and GEOSS
+- European Space Agency
+

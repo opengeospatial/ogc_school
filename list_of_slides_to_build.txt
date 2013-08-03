@@ -1,0 +1,11 @@
+custom/slides/cover.rst
+arch/slides/arch_en.rst
+wms/slides/wms_en.rst
+cat/slides/cat_en.rst
+swe/slides/swe_intro.rst
+swe/slides/swecommon.rst
+swe/slides/om.rst
+swe/slides/swe_services.rst
+kml/slides/kml_en.rst
+wps/slides/wps_en.rst
+wfs/slides/wfs_en.rst
