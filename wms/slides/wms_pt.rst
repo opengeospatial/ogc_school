@@ -2,7 +2,7 @@ WEB Map Service (WMS)
 ==================================
 (In process)
 
-Introduction
+Introdução
 ------------
 
 This tutorial provides a practical introduction to OGC Web Map Service (WMS).
