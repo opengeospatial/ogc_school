@@ -7,6 +7,8 @@ End Point
 The end point to access this service is:
 `getCapabilities <http://metaspatial.net/cgi-bin/ogc-wms.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3>`_
 
+More information about this server can be found `here <http://arnulf.us/OGC_WMS_Demo_and_Reference_Server>`_
+
 
 Description
 ------------
