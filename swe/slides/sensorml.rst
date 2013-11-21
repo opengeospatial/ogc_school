@@ -1,4 +1,4 @@
-Sensor Model Language (SensorMl)
+Sensor Model Language (SensorML)
 ================================
 
 SensorML For Sensor Systems
