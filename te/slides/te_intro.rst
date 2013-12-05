@@ -640,5 +640,24 @@ When typing: http://localhost:8080/teamengine/
 The TEAM Engine Web Inerface should appear like the following:
 
 .. image:: ../img/te-tomcat.jpg
-     :width: 10in       
+     :width: 10in      
+     
+     
+Building for Tomcat 6
+=====================
+
+The TEAM Engine application can work in Tomcat 6 by mapping the aliases to contexts::
+
+      $ cd $CATALINA_HOME # Tomcat instance for teamengine
+      $ echo '<Context docBase="${TE_BASE}/resources/docs"></Context>'
+       > ./conf/Catalina/localhost/teamengine#docs.xml
+      $ echo '<Context docBase="${TE_BASE}/scripts"></Context>'
+       > ./conf/Catalina/localhost/teamengine#about.xml
+      $ echo '<Context docBase="${TE_BASE}/users"></Context>'
+       > ./conf/Catalina/localhost/teamengine#reports.xml
+      $ echo '<Context docBase="${TE_BASE}/resources/site"></Context>'
+       > ./conf/Catalina/localhost/teamengine#site.xml
+
+
+      
    
