@@ -143,18 +143,7 @@ The repository contains three main folders:
 Checkout as a Maven project
 ===========================
 
-Select the version you want to download
----------------------------------------
 
-Copy the URL of the tag. For example::
- 
-   https://svn.code.sf.net/p/teamengine/code/tags/4.0.3
-
-.. image:: ../img/copyurl.jpg
-     :width: 10in
-
-
-     
 Install the Maven SVN connector
 -------------------------------
 
@@ -171,6 +160,17 @@ The first time you checkout a MAVEN project from SVN you will be prompted to get
 * Click on **m2e Marketplace**, select **m2e-subversive**  and click **Finish**.
 * The select **Maven SCM Handler for Suberversive**
 * Click next and accept license agreements. You will be prompted to restart Eclipse.
+
+
+Select the version of TEAM ENgine that you want to download
+-----------------------------------------------------------
+
+Copy the URL of the tag. For example::
+ 
+   https://svn.code.sf.net/p/teamengine/code/tags/4.0.3
+
+.. image:: ../img/copyurl.jpg
+     :width: 10in
 
 
 Checkout as Maven project
