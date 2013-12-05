@@ -181,7 +181,9 @@ Go to **New** / **Other** / **Checkout MAVEN projects from SVN**
 .. image:: ../img/checkout.jpg
      :width: 10in 
      
-Paste the URL that you previously selected
+Paste the URL that you previously selected. For example::
+ 
+   https://svn.code.sf.net/p/teamengine/code/tags/4.0.3
 
 .. image:: ../img/scmurl.jpg
      :width: 10in     
