@@ -1,21 +1,21 @@
-Geographic Modeling Language
-=============================
+Geographic Modeling Language (GML)
+==================================
 
 Feature
---------------
+-------
 .. image:: ../img/geo-feature.jpg
       :height: 654
       :width: 1049 
       
 
 Feature has Properties
-------------------------
+----------------------
 .. image:: ../img/feature.jpg
       :height: 654
       :width: 1049    
 
 Geospatial Feature
----------------------
+------------------
 .. image:: ../img/feature-property.jpg
       :height: 654
       :width: 1049 
@@ -23,7 +23,7 @@ Geospatial Feature
  
          
 Generalization
----------------------
+--------------
 Class = Feature Type = Tree
 
 Properties of Tree:
@@ -34,14 +34,14 @@ Properties of Tree:
 All my Trees will have a height and location.
 
 Feature Instance
------------------
+----------------
 | My favorite tree in Cartagena is the one in front of the hotel Colombia.
 | Height = 5 mt
 | Location: Latitude, Longitude
 | 10.407793,-75.551262
 
-Features Modeling  
-------------------
+Features Modeling
+-----------------
 .. image:: ../img/modeling.jpg
       :height: 654
       :width: 1600 
@@ -49,7 +49,7 @@ Features Modeling
  
 
 Geographic Markup Language (GML)
----------------------------------
+--------------------------------
 
 .. code-block:: xml
 
@@ -66,7 +66,7 @@ Geographic Markup Language (GML)
 
 
 Feature Instance of Type Bridge
----------------------------------
+-------------------------------
 
 .. code-block:: xml
 
@@ -82,7 +82,7 @@ Feature Instance of Type Bridge
     </Bridge>
 
 Feature Types are defined in GML
----------------------------------
+--------------------------------
 
 .. code-block:: xml
 
@@ -100,18 +100,18 @@ Feature Types are defined in GML
 
 
 GML Provides
--------------
+------------
 - Defines an abstract feature model
 - Provides XML Schemas
 - Provides primitives:
-  
+
    - Geometry
    - Feature Types
    - Coordinate Reference Systems
 
 
 GML Geometries
----------------
+--------------
 .. image:: ../img/geometries.jpg
       :height: 654
       :width: 1049 
@@ -125,11 +125,11 @@ How can radio station be modeled?
 
 
 Communities develop their own Application Schemas
----------------------------------------------------
-- AIXM – Aviation 
-- CAAML – Canadian avalanches 
-- CityGML – 3D city models 
+-------------------------------------------------
+- AIXM – Aviation
+- CAAML – Canadian avalanches
+- CityGML – 3D city models
 - CSML –  Climate Science Modelling
 - DAFIF – Defense aviation
-- GeoSciML -  Geoscience 
+- GeoSciML -  Geoscience
 - ...

@@ -1,18 +1,18 @@
-SWE Introduction
-=================
+Overview Sensor Web Enablement (SWE)
+====================================
 
 SWE definition
 --------------
 
-Set of OGC standards that work together to better: 
+Set of OGC standards that work together to better:
 
 - discover
 - access
 - control
-- use sensor data. 
+- use sensor data.
 
 SWE scope
-----------
+---------
 
 Let's call all these **Sensor Systems** or *Systems*
 
@@ -23,7 +23,7 @@ Let's call all these **Sensor Systems** or *Systems*
 
 
 SWE motivation
----------------
+--------------
 
 - Systems are disconnected
 - Systems are heterogeneous
@@ -31,7 +31,7 @@ SWE motivation
 
 
 Systems are disconnected
------------------------------
+------------------------
 
 .. image:: ../img/sensors_everywhere_disconnected.jpg
       :height: 600px
@@ -39,23 +39,23 @@ Systems are disconnected
 
 
 Systems are heterogeneous
------------------------------
+-------------------------
 .. image:: ../img/sensors_everywhere_disconnected.jpg
       :height: 600px
       :width: 1200px
 
 Systems produce lots of data
------------------------------
+----------------------------
 .. image:: ../img/boeing_jet.jpg
       :height: 600px
       :width: 1200px
  
 640 terabytes of operational data on just one Atlantic crossing
-      
 
-    
+
+
 User connected to sensor systems
----------------------------------
+--------------------------------
 
 .. user connected to sensors systems to perform various kind of operations
 
@@ -65,7 +65,7 @@ User connected to sensor systems
       
  
 SWE requirements
------------------------------
+----------------
 .. 
 
 .. image:: ../img/user_swe_requirements.jpg
@@ -88,7 +88,7 @@ SWE encoding standards
 - PUCK
 
 SWE interface standards
-------------------------
+-----------------------
 
 - Sensor Observation Service
 - Sensor Planning Service

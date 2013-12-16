@@ -29,7 +29,13 @@
          "parent": "heading",
          "fontName": "stdBold",
          "fontSize": "100%"   
-         }
+         },
+        "big" :{
+        	
+        	"fontSize": "18"
+        	
+        	
+        }
         
         } 
      

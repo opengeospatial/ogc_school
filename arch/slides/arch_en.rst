@@ -1,9 +1,9 @@
 Geospatial Architectures
-===================================
+========================
 
 
 Service Oriented Architectures
--------------------------------
+------------------------------
 
 .. image:: ../img/soa.jpg
       :height: 800
@@ -11,7 +11,7 @@ Service Oriented Architectures
 
 
 Complex Information Systems
-============================
+---------------------------
 
 .. image:: ../img/multitier-architecture-gigas.jpg
       :height: 1000
@@ -19,14 +19,14 @@ Complex Information Systems
 
 
 Aviation SAA Pilot
-====================
+------------------
 
 .. image:: ../img/aviationPilotArch.jpg
       :height: 1000
       :width: 1400  
 
 Designing - RM ODP
-===================
+------------------
 
 .. image:: ../img/rmodp.jpg
       :height: 800
@@ -34,7 +34,7 @@ Designing - RM ODP
       
       
 Enterprise Viewpoint
-======================
+--------------------
 - stake holders viewpoint
 - why the effort in being undertaken
 - scope
@@ -43,20 +43,19 @@ Enterprise Viewpoint
 
 
 Information Viewpoint
-======================
+---------------------
 - Conceptual models for
    - Data
    - Metadata
-   
+
 - Defines Encoding, For example:
    - WaterML
    - GML
-   - SensorML   
+   - SensorML
 
-            
+
 Computational Viewpoint
-========================
-
+-----------------------
 Interfaces among service consumers and providers. For example:
 
    - WFS
@@ -64,15 +63,15 @@ Interfaces among service consumers and providers. For example:
    - SOS
 
 Engineering Viewpoint
-========================
+---------------------
 - Describes Architecture. Which components are needed?
-- Explains how services related to each other. 
+- Explains how services related to each other.
 - Services are linked via the interfaces listed in the computational viewpoint.
 
-      
+
 
 Other References
-==================
+----------------
 
 - `OGC 08-062r7  - OGC Reference Model (2.1).  <https://portal.opengeospatial.org/files/?artifact_id=47245>`_
 - `OGC  02-112 -  Topic 12 - The OpenGIS Service Architecture <http://portal.opengeospatial.org/files/?artifact_id=1221>`_

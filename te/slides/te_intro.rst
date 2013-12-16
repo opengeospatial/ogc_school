@@ -357,8 +357,6 @@ If the TEAM Engine has properly being installed a pop-up window should appear wi
 .. image:: ../img/xmlnotepopup.jpg
    :width: 10in  
 
-
-
 The command prompt should show a message like the following::
   
          Testing note:main type Mandatory in Test Mode with defaultResult Pass (s0003)...
@@ -408,6 +406,7 @@ The TestNG tests are structured as follows:
 
 The **trunk** contains the latest version. The folder **tags** contains the revisions deployed in the testing web sites.
 The TestNG tests also follows a MAVEN structure.
+
 Configuring  CTL Tests in TEAM Engine
 =====================================
 
@@ -545,16 +544,14 @@ Build the Tests with MAVEN
 .. image:: ../img/mvnetsctl.jpg
          :width: 10in
 
+
 Building a web application with OGC tests (needs update)
-========================================================
-
-When builduing TEAM Engine code doing (mvn install).
-
+********************************************************
 
 Install war
 ===========
 
-Various files under ``target`` were created. Under the folder ``teamengine-web/target`` a war file was created.
+When builduing TEAM Engine code doing (mvn install), various files under ``target`` were created. Under the folder ``teamengine-web/target`` a war file was created.
 
 .. image:: ../img/teweb.jpg
      :width: 10in     

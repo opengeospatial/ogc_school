@@ -11,13 +11,18 @@ rsts=""
 while read x
 do
    len=${#x}                     # of the string in the list of slides
+
    if [ $len -gt 0 ] 
    then
-      buildFolder=${x%/*}/build  # where to put the pdf
-      echo "buildFolder" $buildFolder
-      mkdir $buildFolder
-      fileName=${x##*/}          # file name to be created
-     rst2pdf $x.rst -b 2 -s slides.style -o $buildFolder/$fileName.pdf -q
+   	  pre=${x:0:2}         # extract first letter of string
+   	  if [ pre!="#" ]	
+   	  then
+      	buildFolder=${x%/*}/build  # where to put the pdf
+      	echo "buildFolder" $buildFolder
+      	mkdir $buildFolder
+      	fileName=${x##*/}          # file name to be created
+     	rst2pdf $x.rst -b 2 -s slides.style -o $buildFolder/$fileName.pdf -q
+     fi
    fi
 done < $list_of_slides
  
