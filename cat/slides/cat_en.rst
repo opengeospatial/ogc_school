@@ -216,8 +216,7 @@ Catalog Service
       :height: 1254
       :width: 2249     
       
-
-      
+     
 Catalog Services
 ----------------
 
@@ -227,13 +226,92 @@ Catalog Services
 - OASIS ebRIM Profile
 - OpenSearch
 
+CSW Record
+----------
+.. code-block:: xml   
 
-GEOSS Registry
---------------
+   <?xml version="1.0" encoding="ISO-8859-1"?>
+   <Record
+      xmlns="http://www.opengis.net/cat/csw/2.0.2"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dct="http://purl.org/dc/terms/"
+      xmlns:ows="http://www.opengis.net/ows"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2
+                          ../../../csw/2.0.2/record.xsd">
+                          
+CSW Record
+----------
+.. code-block:: xml   
+                   
+    ...
+    <Record ...                      
+      <dc:identifier>00180e67-b7cf-40a3-861d-b3a09337b195</dc:identifier>
+      <dc:title>Image2000 Product 1 (at1) Multispectral</dc:title>
+      <dct:modified>2004-10-04 00:00:00</dct:modified>
+      <dct:abstract>IMAGE2000 product 1 individual orthorectified 
+            scenes. IMAGE2000 was  produced from ETM+ Landsat 7 
+            satellite data and provides a consistent European 
+            coverage of individual orthorectified scenes in national 
+            map projection systems.</dct:abstract>
+      <dc:type>dataset</dc:type>
+      
+CSW Record
+----------
+.. code-block:: xml      
+      
+    ...
+    <Record ...                      
+      <dc:subject>imagery</dc:subject>
+      <dc:subject>baseMaps</dc:subject>
+      <dc:subject>earthCover</dc:subject>
+      <dc:format>BIL</dc:format>
+      <dc:creator>Vanda Lima</dc:creator>
+      <dc:language>en</dc:language>
+      <ows:WGS84BoundingBox>
+         <ows:LowerCorner>14.05 46.46</ows:LowerCorner>
+         <ows:UpperCorner>17.24 48.42</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+   </Record>
+   
+   
 
-.. image:: ../img/geossreg.jpg
-      :height: 1254
-      :width: 2249  
+Queryable Terms
+---------------
+
+=========== ==================
+OGC Term    XML Element    
+=========== ==================
+Title       dc:title  
+Subject     dc:subject
+Abstract    dc:description
+Modified    dc:modified
+Type        dc:type
+=========== ==================
+
+Queryable Terms
+---------------
+
+=========== ==================
+OGC Term    XML Element    
+=========== ==================
+Format      dc:format
+Identifier  dc:identifier
+Source      dc:source
+Association dc:relation
+BoundingBox ows:BoundingBox         
+=========== ==================
+
+OGC Queryable Terms
+-------------------
+
+AnyText
+   Full text search    
+CRS
+   Coordinate Reference System         
+BoundingBox 
+   For identifying a geographic area of interest
+
 
 Example Services
 ----------------
@@ -244,23 +322,22 @@ Example Services
 `ESRI GeoPortal <http://gptogc.esri.com/geoportal/csw?request=GetCapabilities&service=CSW&version=2.0.2>`_
 
 
-
-
-
 CSW Operations
 --------------
 - GetCapabilities
 - DescribeRecord
 - GetRecordById
 - GetRecords
+- Harvest   
 
 
 CSW GetCapabilities
 -------------------
 
-Request example::
+.. code-block:: JavaScript   
 
-   http://ec2-174-129-9-172.compute-1.amazonaws.com/gi-cat-RI/services/cswiso?
+   http://ec2-174-129-9-172.compute-1.amazonaws.com/
+   gi-cat-RI/services/cswiso?
    service=CSW&
    version=2.0.2&
    request=GetCapabilities
@@ -272,9 +349,10 @@ Request example::
 CSW DescribeRecord
 ------------------
 
-Request example::
+.. code-block:: JavaScript   
 
-   http://ec2-174-129-9-172.compute-1.amazonaws.com/gi-cat-RI/services/cswiso?
+   http://ec2-174-129-9-172.compute-1.amazonaws.com/
+   gi-cat-RI/services/cswiso?
    service=CSW&
    version=2.0.2&
    request=DescribeRecord
@@ -282,8 +360,110 @@ Request example::
 
 `Link <http://ec2-174-129-9-172.compute-1.amazonaws.com/gi-cat-RI/services/cswiso?service=CSW&version=2.0.2&request=DescribeRecord>`_
 
-CSW Get Record
+
+CSW GetRecords
 --------------
+
+.. code-block:: JavaScript   
+
+   http://ec2-174-129-9-172.compute-1.amazonaws.com/
+   gi-cat-RI/services/cswiso?
+   service=CSW&
+   version=2.0.2&
+   request=GetRecords&
+   typeNames=csw:Record&
+   resultType=results&
+   elementSetName=full&
+   outputSchema=http://www.opengis.net/cat/csw/2.0.2&
+   NAMESPACE=xmlns(csw=http://www.opengis.net/cat/csw/2.0.2)
+
+
+`Link <http://ec2-174-129-9-172.compute-1.amazonaws.com/gi-cat-RI/services/cswiso?service=CSW&version=2.0.2&request=GetRecords&typeNames=csw:Record&resultType=results&elementSetName=full&outputSchema=http://www.opengis.net/cat/csw/2.0.2&NAMESPACE=xmlns(csw=http://www.opengis.net/cat/csw/2.0.2)>`_
+
+
+Advanced Queries
+----------------
+Performed:
+ - CQLTEXT
+ - FILTER 
+
+Asynchronous CSW Harvest Request
+--------------------------------
+
+.. code-block:: xml  
+
+      <?xml version="1.0" encoding="ISO-8859-1"?>
+      <Harvest
+        service="CSW"
+        version="2.0.2"
+        xmlns="http://www.opengis.net/cat/csw/2.0.2"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2
+                            ../../../csw/2.0.2/CSW-publication.xsd">
+        <Source>http://www.yourserver.com/metadata.xml</Source>
+        <ResourceType>http://www.fgdc.gov/metadata/csdgm</ResourceType>
+        <ResourceFormat>application/xml</ResourceFormat>
+        <HarvestInterval>P14D</HarvestInterval>
+        <ResponseHandler>
+            ftp://ftp.myserver.com/HarvestResponses</ResponseHandler>
+      </Harvest>
+
+
+Asynchronous CSW Harvest Response
+---------------------------------
+
+.. code-block:: xml  
+
+   <?xml version="1.0" encoding="UTF-8"?>
+   <csw:HarvestResponse 
+         xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+     <csw:Acknowledgement timeStamp="2011-12-05T15:13:59">
+       <csw:EchoedRequest>
+           <csw:Harvest ...
+           </csw:Harvest>
+       </csw:EchoedRequest>
+       <csw:RequestId>
+         e7684bec-1fa9-4053-814f-7ae970d7a4a1
+       </csw:RequestId>
+     </csw:Acknowledgement>
+   </csw:HarvestResponse>
+
+
+Synchronous CSW Harvest Request
+-------------------------------
+
+.. code-block:: xml  
+
+   <?xml version="1.0" encoding="UTF-8"?>
+   <csw:Harvest 
+            xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" 
+            xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+            service="CSW" version="2.0.2">
+      <csw:Source>
+         http://[ URL to the target CSW server ]?
+         request=GetCapabilities&amp;service=CSW
+         &amp;version=2.0.2
+      </csw:Source>
+      <csw:ResourceType>
+         http://www.isotc211.org/schemas/2005/gmd/
+      </csw:ResourceType>
+   </csw:Harvest>
+
+Synchronous CCSW Harvest Response
+---------------------------------
+.. code-block:: xml  
+
+   <?xml version="1.0" encoding="UTF-8"?>
+   <csw:HarvestResponse 
+      xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+       <csw:TransactionResponse>
+           <csw:TransactionSummary>
+               <csw:totalInserted>22</csw:totalInserted>
+               <csw:totalUpdated>0</csw:totalUpdated>
+               <csw:totalDeleted>0</csw:totalDeleted>
+           </csw:TransactionSummary>
+       </csw:TransactionResponse>
+   </csw:HarvestResponse>
 
 
 OpenSearch
@@ -355,12 +535,6 @@ OpenSearchGeo
    l=boston&
    format=rss
    
-   
-Example Tool: GeoNetwork
-------------------------
-.. image:: ../img/geonetwork.jpg
-      :height: 1254
-      :width: 2249   
       
         
 

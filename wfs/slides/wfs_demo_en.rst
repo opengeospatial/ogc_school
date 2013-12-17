@@ -61,7 +61,9 @@ Query based on values of properties
 
  Lakes with area > 1067000000 cm.
 
+
 .. code-block:: xml
+	
  
     http://localhost:8080/geoserver/topp/ows?
       service=WFS&version=1.1.0&request=getFeature&
