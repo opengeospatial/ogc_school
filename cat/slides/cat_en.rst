@@ -317,7 +317,7 @@ Example Services
 ----------------
 `GI CAT <http://ec2-174-129-9-172.compute-1.amazonaws.com/gi-cat-RI/services/cswiso?service=CSW&version=2.0.2&request=GetCapabilities>`_
 
-`PYCSW <http://demo.pycsw.org/cite/csw?service=CSW&version=2.0.2&request=GetCapabilities>`_
+`pycsw <http://demo.pycsw.org/cite/csw?service=CSW&version=2.0.2&request=GetCapabilities>`_
 
 `ESRI GeoPortal <http://gptogc.esri.com/geoportal/csw?request=GetCapabilities&service=CSW&version=2.0.2>`_
 
