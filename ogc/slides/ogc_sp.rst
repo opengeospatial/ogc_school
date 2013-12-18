@@ -1,5 +1,5 @@
-The OGC Standards DevelopmentProgram
-====================================
+The OGC Standards Development Program
+=====================================
 
 It's all about coordinating people
 ----------------------------------
@@ -99,7 +99,7 @@ Domain Working Groups (DWGs)
 Where Members discuss technical requirements, use cases, and issues related to the development and revision of OGC standards. The results of OGC interoperability projects are presented and discussed. Many Member presentations on the use of OGC standards.
 Any Member or invited guest can attend any DWG session.
 
-Standards Working Groups (SWFs)
+Standards Working Groups (SWGs)
 -------------------------------
 
 - Groups that work on a new (candidate) OGC standard or revision to an existing OGC standard
@@ -116,6 +116,7 @@ What is the OGC Planning Committee?
 - Manages the consortium’s technology release process
 - Approves special negotiated memberships and committee participation.
 - Must be a Principal or Strategic Member or a TC representative to the PC to participate in PC activities.
+
 
 What is the OGC Architecture Board (OAB)?
 -----------------------------------------

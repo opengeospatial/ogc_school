@@ -28,7 +28,7 @@ Interoperability Program (IP)
 - A global, innovative, hands-on rapid prototyping and testing program
   designed to unite users and industry in accelerating interface development
   and validation, and the delivery of interoperability to the market.
-- 40 initiatives since 1999
+- 70 initiatives since 1999
 - Deliverables:
    - Technical Documents
    - Prototype Implementations
@@ -67,7 +67,8 @@ IP Type of activities
   standards. Pilot Projects also help organizations identify gaps to be
   addressed by further standards development work.
 - **Interoperability Experiments**
-- ...
+- **Concept Development Studies**
+- **Plugest**
 
 
 Testbed Activities

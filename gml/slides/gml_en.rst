@@ -126,10 +126,42 @@ How can radio station be modeled?
 
 Communities develop their own Application Schemas
 -------------------------------------------------
-- AIXM – Aviation
-- CAAML – Canadian avalanches
-- CityGML – 3D city models
+CityGML
+   Common information model for the representation of 3D urban objects. It defines the classes and relations for the most relevant topographic objects in cities and regional models with respect to their geometrical, topological, semantic and appearance properties. Included are generalization hierarchies between thematic classes, aggregations, relations between objects, and spatial properties.
+   Major cities in Germany and other locations are being modeled in CityGML. For example, Stuttgart and Berlin city models.  
+   
+http://www.citygml.org
+   
+Communities develop their own Application Schemas
+-------------------------------------------------
+GeoSciML
+   Accommodates the goal of representing geoscience information associated with geologic maps and observations, as well as being extensible in the long-term to other geoscience data.
+   
+   An approved standard in that community
+   
+http://www.opengis.net/GeoSciML/
+
+Communities develop their own Application Schemas
+-------------------------------------------------
+ 
+AIXM
+   The Aeronautical Information Exchange Model (AIXM) Specification supports the data-centric environment. It supports aeronautical information collection, dissemination and transformation throughout the data chain.
+   
+http://www.aixm.aero
+    
+Other Application Schemas
+-------------------------
+  
+- ALKIS/ATKIS - German National Cadastre
+- AgroXML - Used in Farm Management Information Systems
+- CAAML - Canadian Avalanche Association Markup Language
+- CleanSeaNet - Near real time oil spill monitoring
 - CSML –  Climate Science Modelling
+- CWWL - Cyclone Warning Markup Language 
 - DAFIF – Defense aviation
-- GeoSciML -  Geoscience
-- ...
+- GML in JPEG2000
+- Tiger/GML - US Census
+
+http://www.ogcnetwork.net/gmlprofiles
+
+

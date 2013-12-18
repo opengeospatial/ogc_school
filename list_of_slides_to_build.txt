@@ -14,7 +14,15 @@ swe/slides/om
 swe/slides/swecommon
 swe/slides/sensorml
 swe/slides/swe_services
+geosms/slides/geosms
 cat/slides/cat_en
 wps/slides/wps_en
 arch/slides/arch_en
 arch/slides/cloud_computing_en
+security/slides/security
+context/slides/context
+geopackage/slides/geopackage
+
+
+
+

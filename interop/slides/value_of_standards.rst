@@ -61,6 +61,9 @@ Why Standards?
 
 *Ivan DeLoatch, Executive Director of the FGDC.*
 
+
+
+
 Why Open Standards?
 -------------------
 They work better when they are open
@@ -88,6 +91,20 @@ Why Open Standards?
    "Governments like to say they can publish to OGC KML instead of Google KML ... everyone has confidence we won’t take advantage of the format or change it in a way that will harm anyone ..."
 
 *Michael Weiss-Malik, Google KML product manage*
+
+
+
+
+Economic Benefits of Standards
+------------------------------
+.. class:: big
+   
+   Benefits to German economy of 17 billion Euros in 2010! ...    Standards promote worldwide trade, encouraging rationalization, quality assurance and environmental protection, as well as improving security and communication. Standards have a greater effect on economic growth than patents or licenses.
+   
+
+*`German DIN Study <http://www.din.de/sixcms_upload/media/2896/DIN_GNN_2011_engl_akt_neu.pdf>`_ "Economic Benefits of Standardization" 
+    
+
 
 
 Location Interoperability
