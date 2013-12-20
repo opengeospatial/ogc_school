@@ -1,17 +1,17 @@
 Web Feature Service (WFS)
-==========================
+=========================
 
 Web Feature Service (WFS)
---------------------------
+-------------------------
 - Service (Protocol)
 - Do the following with Geographic Features:
 
-   •  publish 
-   •  access
-   •  manipulate
+      - publish 
+      - access
+      - manipulate
 
 WFS Operations
-----------------
+--------------
 
 - *getCapabilities* - summary of the service
 - *DescribeFeatureType* - structure of the feature types

@@ -78,6 +78,51 @@ DescribeProcess
    returns details of a specific process including its inputs and outputs
 Execute
    returns, for a specific process, the output(s) of a process
+   
+WPS GetCapabilities
+-------------------
+
+Request example::
+
+   http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?
+   Request=GetCapabilities&
+   Service=WPS&
+   Version=1.0.0
+
+
+`Link <http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?Request=GetCapabilities&Service=WPS&Version=1.0.0>`_
+
+WPS DescribeProcess
+-------------------
+
+Request example::
+
+   http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?
+   Request=DescribeProcess&
+   Service=WPS&
+   version=1.0.0&
+   identifier=org.n52.wps.extension.GetFuelPriceProcess
+
+
+`Link <http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?Request=DescribeProcess&Service=WPS&version=1.0.0&identifier=org.n52.wps.extension.GetFuelPriceProcess>`_
+
+WPS Execute
+-----------
+
+
+Request example::
+
+   http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?
+   Request=Execute&
+   Service=WPS&
+   version=1.0.0&
+   identifier=org.n52.wps.extension.GetFuelPriceProcess&
+   dataInputs=fuelType=diesel
+
+
+`Link <http://geoprocessing.demo.52north.org:8080/wps/WebProcessingService?Request=Execute&Service=WPS&version=1.0.0&identifier=org.n52.wps.extension.GetFuelPriceProcess&dataInputs=fuelType=diesel>`_
+ 
+*Note how the dataInputs are provided. If more than one, separate by ";"* 
 
 Parameters DescribeProcess
 --------------------------
@@ -120,7 +165,7 @@ Use another feature collection as input.
 
 For example `this getFeature request <http://demo.opengeo.org/geoserver/og/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=og%3Astreams&amp;maxfeatures=1&outputformat=GML3>`_
 
-
+More information `link <http://wiki.ieee-earth.org/Documents/GEOSS_Tutorials/GEOSS_Provider_Tutorials/Web_Processing_Service_Tutorial_for_GEOSS_Providers/Section_2%3A_Introduction_to_WPS>`_
 
 
 

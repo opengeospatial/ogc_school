@@ -1,14 +1,16 @@
-custom/slides/cover
+custom/slides/20131218-siorg/cover
 interop/slides/value_of_standards
 ogc/slides/ogc
 ogc/slides/ogc_ip
 ogc/slides/ogc_sp
 interop/slides/concepts
+ows/slides/ows
+gml/slides/gml
 wfs/slides/wfs_en
 wfs/slides/wfs_demo_en
-gml/slides/gml_en
 wms/slides/wms_en
 kml/slides/kml_en
+wcs/slides/wcs
 swe/slides/swe_intro
 swe/slides/om
 swe/slides/swecommon
@@ -18,10 +20,12 @@ geosms/slides/geosms
 cat/slides/cat_en
 wps/slides/wps_en
 arch/slides/arch_en
+arch/slides/arch_exercise
 arch/slides/cloud_computing_en
 security/slides/security
 context/slides/context
 geopackage/slides/geopackage
+custom/slides/20131218-siorg/lastslides
 
 
 

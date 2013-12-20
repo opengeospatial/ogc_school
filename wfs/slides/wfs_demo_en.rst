@@ -7,13 +7,15 @@ GeoServer Demo
  - GeoServer is the reference implementation for WFS 1.1.0.
  - Open and free software
  - Java-based
+ - Available at: http://geoserver.org
 
 GeoServer Demo
 --------------
+To run the demo a local installation will be used
 
-- http://localhost:8080/geoserver/web/
-- click on Demos
-- Explore Operations
+   - http://localhost:8080/geoserver/web/
+   - click on Demos
+   - Explore Operations
 
 
 Example GetCapabilities Request

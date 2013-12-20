@@ -179,17 +179,6 @@ Example Government Members Europe
 - State Land Agencies (Germany)
 - City of Vienna (Austria)
 
-Example Government Members Other Parts of the world
----------------------------------------------------
-- Quebec Dept. of Natural Resources (Canada)
-- DOD Australia
-- Geoscience Australia
-- Landgate (Western Australia)
-- GIS Center for Security (Abu Dhabi, UAE) Abu Dhabi Systems & Info. Center
-- Dubai Municipality
-- Dept. Science & Technology (India)
-- Ministerio de Bienes Nacionales - Secretaria Ejecutiva SNIT (Chile)
-
 
 
 OGC Alliance Partners

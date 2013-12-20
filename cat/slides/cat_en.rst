@@ -70,11 +70,6 @@ Metadata - Why
 --------------
 - Why were the data collected?
 
-Metadata - Why
---------------
-- Why were the data collected?
-
-
 Where
 -----
 

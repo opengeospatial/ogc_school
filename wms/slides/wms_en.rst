@@ -1,5 +1,5 @@
 WEB Map Service (WMS)
-==================================
+=====================
 
 This tutorial provides a practical introduction to OGC Web Map Service (WMS) 
 Interface standard.
@@ -10,7 +10,7 @@ Goals
 - Understand WMS requests and best practices
 
 Web Map Service (WMS)
-----------------------
+---------------------
 The latest version of WMS is 1.3.0 [#ogc-06-042].
 
 A WMS Server:
@@ -21,73 +21,96 @@ A WMS Server:
 
 
 WMS Usage
-------------
+---------
 -  Produce a Map
 -  Answer queries about content of the map
 
 
 WMS Operations
-----------------
+--------------
 - GetCapabilities
 - GetMap
 - GetFeatureInfo
 
-WMS GetCapabilities Request
-----------------------------
-Request example::
+WMS Exmpales
+------------
+The examples are based on a local installation of GeoServer
+http://geoserver.org/
 
-   http://ri.opengeospatial.org:8680/degree-wms-130/services?
-   service=WMS&
-   version=1.3.0&
-   request=GetCapabilities
-      
-`Link to getCapabilities <http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=GetCapabilities>`_
 
-WMS GetCapabilities Response
------------------------------
 
--  How to invoke GetMap 
--  Types of exceptions
--  List of layers
-
-WMS GetMap Request
+WMS GetCapabilities
 -------------------
 
 Request example::
 
-   http://ri.opengeospatial.org:8680/degree-wms-130/services?
+   http://localhost:8080/geoserver/topp/wms?
    service=WMS&
    version=1.3.0&
-   request=GetMap&
-   format=image/png&
-   width=300&
-   height=300&
-   crs=EPSG:4326&
-   layers=cite:BasicPolygons,cite:Forests&
-   STYLES=default,default
-   BBOX=-2,-1,2,6&
+   request=GetCapabilities
 
-`Link to GetMap <http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=GetMap&format=image/png&width=300&height=300&crs=EPSG:4326&layers=cite:BasicPolygons,cite:Forests&BBOX=-2,-1,2,6&STYLES=default,default>`_
 
-WMS GetFeatureInfo Request
----------------------------
+`Link <http://localhost:8080/geoserver/topp/wms?service=WMS&version=1.3.0&request=GetCapabilities>`_
+
+ 
+WMS GetCapabilities Response
+----------------------------
+Provides information about:
+ 
+-  How to invoke GetMap 
+-  Types of exceptions
+-  List of layers
+
+WMS GetMap
+----------
 
 Request example::
 
-   http://ri.opengeospatial.org:8680/degree-wms-130/services?
+   http://localhost:8080/geoserver/wms?
+   bbox=-130,24,-66,50&
+   styles=population&
+   Format=image/png&
+   request=GetMap&
+   layers=topp:states&
+   width=550&height=250&
+   srs=EPSG:4326
+
+
+
+`Link <http://localhost:8080/geoserver/wms?bbox=-130,24,-66,50&styles=population&Format=image/png&request=GetMap&layers=topp:states&width=550&height=250&srs=EPSG:4326
+>`_
+
+
+WMS GetFeatureInfo
+------------------
+
+Request example::
+
+   http://localhost:8080/geoserver/wms?
+   bbox=-130,24,-66,50&
+   styles=population&
+   format=jpeg&
+   info_format=text/plain&
+   request=GetFeatureInfo&
+   layers=topp:states&
+   query_layers=topp:states&
+   width=550&height=250&x=170&y=160
+
+
+`Link <http://localhost:8080/geoserver/wms?bbox=-130,24,-66,50&styles=population&format=jpeg&info_format=text/plain&request=GetFeatureInfo&layers=topp:states&query_layers=topp:states&width=550&height=250&x=170&y=160>`_
+
+ 
+WMS GetLeyendGraphic
+--------------------
+Optional request, provided by WMSs that support SLD
+
+Request example::
+
+   http://localhost:8080/geoserver/topp/ows?
    service=WMS&
-   version=1.3.0&
-   request=getfeatureinfo&
-   format=text/html&
-   crs=EPSG:4326&
-   layers=cite:BasicPolygons&
-   query_layers=cite:BasicPolygons&
-   BBOX=-2,-1,2,6&
-   width=300&
-   height=300&
-   i=1&
-   j=1
-   
-`Link to GetFeatureInfo <http://ri.opengeospatial.org:8680/degree-wms-130/services?service=WMS&version=1.3.0&request=getfeatureinfo&format=text/html&crs=EPSG:4326&layers=cite:BasicPolygons&query_layers=cite:BasicPolygons&BBOX=-2,-1,2,6&width=300&height=300&i=1&j=1>`_
-   
+   request=GetLegendGraphic&
+   format=image%2Fpng&width=20&height=20&layer=states
+
+
+`Link <http://localhost:8080/geoserver/topp/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=states>`_
 

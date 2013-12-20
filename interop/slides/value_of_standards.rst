@@ -99,7 +99,7 @@ Economic Benefits of Standards
 ------------------------------
 .. class:: big
    
-   Benefits to German economy of 17 billion Euros in 2010! ...    Standards promote worldwide trade, encouraging rationalization, quality assurance and environmental protection, as well as improving security and communication. Standards have a greater effect on economic growth than patents or licenses.
+   Benefits to German economy of 17 billion Euros in 2010! ...    Standards promote worldwide trade, ... as well as improving security and communication. Standards have a greater effect on economic growth than patents or licenses.
    
 
 *`German DIN Study <http://www.din.de/sixcms_upload/media/2896/DIN_GNN_2011_engl_akt_neu.pdf>`_ "Economic Benefits of Standardization" 
