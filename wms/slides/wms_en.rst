@@ -32,7 +32,7 @@ WMS Operations
 - GetMap
 - GetFeatureInfo
 
-WMS Exmpales
+WMS Examples
 ------------
 The examples are based on a local installation of GeoServer
 http://geoserver.org/
@@ -100,7 +100,7 @@ Request example::
 `Link <http://localhost:8080/geoserver/wms?bbox=-130,24,-66,50&styles=population&format=jpeg&info_format=text/plain&request=GetFeatureInfo&layers=topp:states&query_layers=topp:states&width=550&height=250&x=170&y=160>`_
 
  
-WMS GetLeyendGraphic
+WMS GetLegendGraphic
 --------------------
 Optional request, provided by WMSs that support SLD
 
